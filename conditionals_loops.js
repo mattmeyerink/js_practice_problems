@@ -20,10 +20,10 @@ function largestOfFive(num1, num2, num3, num4, num5) {
     var max = num1;
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] > max) {
-            max = arr[i]
+            max = arr[i];
         }
     }
-    alert(max)
+    alert(max);
 }
 
 // Question 4
@@ -69,7 +69,7 @@ function remainderCounter() {
 function halfPyramid() {
     let n = 5;
     for (let i = 1; i <= 5; i++) {
-        lineOutput = ""
+        lineOutput = "";
         spaces = n - i;
         for (let j = 1; j <= spaces; j++) {
             lineOutput += " ";
@@ -80,7 +80,7 @@ function halfPyramid() {
         for (let j = i - 1; j > 0; j--) {
             lineOutput += j;
         }
-        console.log(lineOutput)
+        console.log(lineOutput);
     }
 }
 
@@ -88,7 +88,7 @@ function halfPyramid() {
 function fullPyramid(){
     let n = 5;
     for (let i = 1; i <= 5; i++) {
-        lineOutput = ""
+        lineOutput = "";
         spaces = n - i;
         for (let j = 1; j <= spaces; j++) {
             lineOutput += " ";
@@ -99,10 +99,10 @@ function fullPyramid(){
         for (let j = i - 1; j > 0; j--) {
             lineOutput += j;
         }
-        console.log(lineOutput)
+        console.log(lineOutput);
     }
     for (let i = n - 1; i > 0; i--) {
-        lineOutput = ""
+        lineOutput = "";
         spaces = n - i;
         for (let j = 1; j <= spaces; j++) {
             lineOutput += " ";
@@ -113,6 +113,6 @@ function fullPyramid(){
         for (let j = i - 1; j > 0; j--) {
             lineOutput += j;
         }
-        console.log(lineOutput)
+        console.log(lineOutput);
     }
 }

@@ -101,7 +101,7 @@ function findDuplicates(arr) {
     let duplicates = []
     for (var key in frequency) {
         if (frequency[key] > 1) {
-            duplicates = duplicates.concat(key)
+            duplicates = duplicates.concat(key);
         }
     }
     return duplicates;
